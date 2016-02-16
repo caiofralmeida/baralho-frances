@@ -1,10 +1,15 @@
 {
-    "name": "jamal/baralho-frances",
+    "name": "caiofralmeida/baralho-frances",
     "version": "1.0",
 
     "autoload": {
         "psr-4": {
-            "Jamal\\": "src/Jamal"
+            "BaralhoFrances\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BaralhoFrancesTest\\": "tests/"
         }
     },
     "require-dev": {
